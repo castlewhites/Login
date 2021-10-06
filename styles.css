@@ -1,0 +1,74 @@
+.container {
+    margin: auto;
+    top: 100px;
+    position: relative;
+    padding: 0;
+    width: 400px;
+    color: black;
+    background: #83838C;
+    border-radius: 20px;
+}
+/* Bokeh Models */
+.bk-widget-form-input {
+    width: auto;
+    text-align: center;
+}
+/* Login */
+.login_logo {
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 580px;
+   
+}
+.login_title1 {
+    position: absolute;
+    width: 500px;
+    left: 40px;
+    top: 10px;
+    font-size:30px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.login_title2 {
+    position: absolute;
+    width: 600px;
+    font-size:24px;
+    text-align: left;
+    font-weight: normal;
+}
+.login_validation {
+    position: absolute;
+    width: 420px;
+    left: 430px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+.login_user {
+
+    position: absolute;
+    width: 500px;
+    font-size: 18px bold;
+    text-align: center;
+}
+.login_password {
+    position: absolute;
+    width: 420px;
+    font-size: 18px bold;
+}
+.login_button_go {
+    position: absolute;
+    width: 100px;
+    left: 400px;
+    font-weight: bold;
+}
+.login_button_go button.bk-bs-btn.bk-bs-btn-primary {
+    color: #FDFEFE;
+    background: url("../im/crowis_logo.png") no-repeat scroll center center / 80% auto rgba(255, 255, 255, 255) !important;
+    border-color: #ffffff;
+    width: 52px;
+    height: 85px;
+}
