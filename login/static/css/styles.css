@@ -1,0 +1,63 @@
+#body{
+    height: 100%;
+    width: 100%;
+    background: #E5E7E9;
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    color: black;
+    top: 50px;
+    background: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto auto;
+    border-width: 1px;
+    border-color: #a4a4a4;
+    box-shadow: 0 4px 8px 0 #a4a4a4, 0 6px 12px 0 #a4a4a4;
+}
+/* Bokeh Models */
+.bk-root {
+    height: 500px;
+}
+/* Login */
+.login_logo {
+    position: absolute;
+    margin-left: 35%;
+}
+.login_title1 {
+    position: absolute;
+    width: 250px;
+    left: 60px;
+    top: 7px;
+    font-size:17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+.login_title2 {
+    position: absolute;
+    text-align: left;
+} 
+.remember_password{
+    background: lawngreen;
+    width: 50%;
+    position: absolute;
+    margin-left: 70%;
+
+}
+.bk-root .bk-widget-form-input {
+    display: block;
+    height: 31px;
+    padding: 0 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 100%;
+    margin-left: 7%;
+}
+.login_button_go{
+    width: 100%;
+}
